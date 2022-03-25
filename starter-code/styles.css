@@ -296,5 +296,66 @@ nav {
     margin: 0 100px;
     margin-bottom: 42px;
   }
+}
 
+@media only screen and (min-width: 1440px) {
+  .hero-section-image-tablet {
+    display: none;
+  }
+
+  .hero-section-desktop {
+    display: flex;
+    justify-content: center;
+  }
+
+  .desktop-hero-middle-hidden {
+    display: none;
+  }
+
+  .grid-image {
+    width: 275px;
+    height: 275px; 
+  }
+
+  .grid-container {
+    grid-template-columns: 275px 275px 275px 275px;
+    column-gap: 1.5rem;
+  }
+
+  .section-one-header {
+    font-size: 3.5rem;
+    margin: 0 400px;
+    line-height: 3.5rem;
+    margin-bottom: 23px;
+  }
+
+  .section-one-header + p {
+    font-size: 1.5rem;
+    margin: 0 350px;
+  }
+
+  .footer-container {
+    background-image: url('../starter-code/assets/desktop/image-footer.jpg');
+    display: flex;
+    text-align: left;
+    align-items: center;
+  }
+
+  .footer-container > h2 {
+    margin-left: 150px;
+  }
+
+  .footer-container > p {
+    display: inline-block;
+    margin: auto;
+    width: 350px;
+  }
+
+  .break {
+    display: flex;
+  }
+
+  .footer-container + button {
+    
+  }
 }
